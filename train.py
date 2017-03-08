@@ -18,9 +18,6 @@ Ytest /= Ytest.max()
 ###############################################################
 ## define gradient descent and error functions
 
-## weird error: omp_get_num_procs
-## python3 doesn't have this problem ...
-
 def du(lmbda, U, V, Y, w, i):
 
 	Sum = 0.
